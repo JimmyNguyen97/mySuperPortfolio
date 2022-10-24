@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: Space Mono, monospace;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-image: url('./Images/aura.gif');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  /* background-color: #02183A; */
+  background-attachment: fixed;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+    background-image: linear-gradient(to top, #fff 0%, #19E7B0 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+/*  */
+.nav__container {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  width: 100%;
+  background-color: #02183A;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  color: white;
+  position: fixed;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.nav__container a {
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+/* Introduction */
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  width: 100%;
+}
+
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  /* background-color: rgba(60, 64, 67, 0.3); */
+}
+
+.intro__text h1 {
+  background-image: linear-gradient(to top, #fff 0%, #19E7B0 100%);
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: #19E7B0;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+#highlight__intro {
+  color: #19e7b0;
+}
+
+/* About */
+.about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  width: 100%;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Projects */
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  width: 100%;
+}
+
+.projects__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#ms__banner {
+  margin: 1rem 0;
+  width: 70%;
+}
+
+/* Resume */
+
+#resume {
+  position: fixed;
+  top:0;
+  left: 0;
 }
