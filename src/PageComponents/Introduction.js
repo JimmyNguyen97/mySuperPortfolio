@@ -8,20 +8,22 @@ export default function Introduction() {
         </h1>
         <p>
           A Software Engineer located in
-          <a id="highlight__intro">{` Las Vegas, NV.`}</a>
+          <a href='/'>{` Las Vegas, NV.`}</a>
         </p>
         <p style={{ color: "lightgray" }}>
-          I'm a <a id="highlight__intro">{" Full Stack Developer"}</a> that
+          I'm a <a href='/'>{" Full Stack Developer"}</a> that
           enjoys building and creating products for entertainment or problem
           solving. Coming from a family of entrepreneurs, I've always been drawn
           to creating and building.
         </p>
         <p style={{ color: "lightgray" }}>
           In my free time, I'm a gamer and
-          <a id="highlight__intro">{" game developing"}</a> as a hobby. Outside
+          <a href='/'>{" game developing"}</a> as a hobby. Outside
           of gaming, I'm a rock climber and volleyball player.
         </p>
+        <p style={{ color: "lightgray" }}>I am currently creating projects with React and making sure that they're created with the most up-to-date React technologies.</p>
       </div>
+      <img src={require('../Images/Profile Picture.png')} alt='Professional Headshot' id='img__homepage'/>
     </div>
   );
 }

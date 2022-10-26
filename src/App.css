@@ -23,14 +23,35 @@ p {
 h1 {
     background-image: linear-gradient(to top, #fff 0%, #19E7B0 100%);
     -webkit-background-clip: text;
-    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    /* -moz-background-clip: text; */
+    /* -moz-text-fill-color: transparent; */
+    font-size: 75px;
 }
 
 li {
   margin-left: 1rem;
 }
+
+a {
+  text-decoration: none;
+  color: #19e7b0;
+}
+
+hr {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+/* Not Found */
+#not__found {
+  width: 100%;
+  height: 100vh;
+  background-image: url('./Images/404.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 /*  */
 .nav__container {
@@ -53,15 +74,24 @@ li {
 
 .nav__container a {
   padding: 0 1rem;
+  margin: 0 2rem;
   text-decoration: none;
+  color: white;
+}
+
+.nav__container a:hover {
+  height: 60%;
+  color: #19e7b0;
+  border-bottom: solid 2px#19E7B0;
 }
 
 /* Introduction */
 .intro__container {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
-  min-height: 90vh;
+  align-items: center;
+  height: 100vh;
   width: 100%;
 }
 
@@ -69,32 +99,33 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
-  margin: 0 auto;
+  width: 40%;
+  /* margin: 0 auto; */
   /* background-color: rgba(60, 64, 67, 0.3); */
 }
 
-.intro__text h1 {
+#img__homepage {
+  width: 20%;
+  margin: 2rem;
+  border-radius: 200px;
+}
+
+/* .intro__text h1 {
   background-image: linear-gradient(to top, #fff 0%, #19E7B0 100%);
   cursor: pointer;
   text-decoration: none;
-  box-shadow: #19E7B0;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
-
-#highlight__intro {
-  color: #19e7b0;
-}
+} */
 
 /* About */
 .about__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -119,6 +150,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 60%;
   margin: 0 auto;
 }
@@ -130,8 +162,80 @@ li {
 
 /* Resume */
 
-#resume {
-  position: fixed;
-  top:0;
-  left: 0;
+.resume__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0 2rem;
+  height: 91vh;
+  width: 37%;
+  background-color: black;
+  position: relative;
+  top: 4rem;
+}
+
+.resume__container p {
+  margin: 0;
+  font-size: small;
+}
+
+.resume__container li {
+  font-size: small;
+}
+
+#resume__name {
+  font-size: xx-large;
+}
+
+.skillset__container {
+  display: flex;
+}
+
+.skillset__container p {
+  margin: 0;
+}
+
+#project__text {
+  margin-bottom: 0.5rem;
+}
+
+.work__container {
+  width: 100%;
+}
+
+div#job {
+  display: flex;
+  justify-content: space-between;
+}
+
+div#job p {
+  margin: 0
+}
+
+.certificate__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#cert {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+.education__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#edu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
 }
