@@ -78,10 +78,11 @@ hr {
   width: 70%;
 }
 
-img#nav__logo {
-  position: fixed;
-  left: 5px;
-
+img#nav_logo {
+  position: absolute;
+  left: 109px;
+  top: 6px;
+  width: 36px;
 }
 
 .nav__container a {
@@ -119,9 +120,29 @@ img#nav__logo {
   border-bottom: solid 2px#19E7B0;
 }
 
+.drop__container {
+  display:none;
+}
+
+#hamburger {
+  display: none;
+  width: 40px;
+  position: absolute;
+  right: 109px;
+  top: 6px;
+}
+
 @media (max-width:750px) {
   .nav__links {
     display: none;
+  }
+
+  #drop__contents {
+    display: flex;
+  }
+
+  #hamburger {
+    display: block;
   }
 }
 
@@ -140,8 +161,6 @@ img#nav__logo {
   flex-direction: column;
   justify-content: center;
   width: 40%;
-  /* margin: 0 auto; */
-  /* background-color: rgba(60, 64, 67, 0.3); */
 }
 
 #img__homepage {
@@ -179,12 +198,18 @@ img#nav__logo {
   margin: 0 auto;
 }
 
+@media (max-width:750px) {
+  .about__text {
+    width: 70%;
+  }
+}
+
 /* Projects */
 .projects__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 100vh;
+  height: 115vh;
   width: 100%;
 }
 
@@ -200,7 +225,7 @@ img#nav__logo {
 #visit__project {
   display: flex;
   justify-content: space-around;
-  width: 22%;
+  width: 40%;
   height: 100%;
 }
 
@@ -218,8 +243,13 @@ img#nav__logo {
   margin-bottom: 1rem;
 }
 
-/* Resume */
+@media (max-width: 750px) {
+  .projects__text {
+    width: 90%;
+  }
+}
 
+/* Resume */
 .resume__container {
   display: flex;
   flex-direction: column;
@@ -227,11 +257,11 @@ img#nav__logo {
   align-items: center;
   margin: auto;
   padding: 0 2rem;
-  height: 91vh;
-  width: 37%;
+  height: 120vh;
+  width: 55%;
   background-color: black;
   position: relative;
-  top: 4rem;
+  top: 5rem;
 }
 
 .resume__container p {
@@ -296,4 +326,12 @@ div#job p {
   justify-content: space-between;
   width: 100%;
   margin: auto;
+}
+
+@media (max-width: 750px) {
+  .resume__container {
+    width: 90%;
+    height: 120vh;
+    z-index: -1;
+  }
 }
