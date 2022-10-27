@@ -9,16 +9,6 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Resume from "./PageComponents/Resume";
 
-// function Home() {
-//   return (
-//     <>
-//       <Introduction />
-//       <About />
-//       <Projects />
-//     </>
-//   );
-// }
-
 function App() {
   return (
     <>
