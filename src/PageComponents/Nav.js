@@ -42,7 +42,7 @@ export default function Nav() {
         </div>
       </div>
       <img
-        src={require("../Images/Youtube-Logo.png")}
+        src={require("../Images/Menu Icon.png")}
         alt="temp menu logo"
         onClick={clickToDropMenu}
         id="hamburger"
