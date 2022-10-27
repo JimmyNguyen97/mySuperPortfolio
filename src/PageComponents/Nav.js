@@ -17,14 +17,14 @@ export default function Nav() {
         id="nav_logo"
       />
       <div className="nav__links">
-        <Link to="/Home">Home</Link>
+        <Link to="mySuperPortfolio">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Projects">Project</Link>
         <Link to="/Resume">Resume</Link>
       </div>
       <div className="drop__container" style={{ display: menuDisplay }}>
         <div id="drop__contents">
-          <Link to="/Home" onClick={clickToDropMenu}>
+          <Link to="mySuperPortfolio" onClick={clickToDropMenu}>
             Home
           </Link>
           <Link to="/About" onClick={clickToDropMenu}>
