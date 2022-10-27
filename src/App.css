@@ -26,7 +26,7 @@ h1 {
     -webkit-text-fill-color: transparent;
     /* -moz-background-clip: text; */
     /* -moz-text-fill-color: transparent; */
-    font-size: 75px;
+    font-size: 65px;
 }
 
 li {
@@ -85,14 +85,14 @@ img#nav_logo {
   width: 36px;
 }
 
-.nav__container a {
+#nav__btn {
   padding: 0 1rem;
   margin: 0 2rem;
   text-decoration: none;
   color: white;
 }
 
-.nav__container a:hover {
+#nav__btn:hover {
   height: 60%;
   color: #19e7b0;
   border-bottom: solid 2px#19E7B0;
@@ -328,10 +328,10 @@ div#job p {
   margin: auto;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .resume__container {
-    width: 90%;
-    height: 120vh;
+    width: 75%;
+    height: 91vh;
     z-index: -1;
   }
 }

@@ -11,16 +11,19 @@ export default function Nav() {
 
   return (
     <div className="nav__container">
-      <img
-        src={require("../Images/blue green J.png")}
-        alt="J - First Initial Logo"
-        id="nav_logo"
-      />
+
+      <Link to="mySuperPortfolio">
+        <img
+          src={require("../Images/blue green J.png")}
+          alt="J - First Initial Logo"
+          id="nav_logo"
+        />
+      </Link>
       <div className="nav__links">
-        <Link to="mySuperPortfolio">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Projects">Project</Link>
-        <Link to="/Resume">Resume</Link>
+        <Link id="nav__btn" to="mySuperPortfolio">Home</Link>
+        <Link id="nav__btn" to="/About">About</Link>
+        <Link id="nav__btn" to="/Projects">Project</Link>
+        <Link id="nav__btn" to="/Resume">Resume</Link>
       </div>
       <div className="drop__container" style={{ display: menuDisplay }}>
         <div id="drop__contents">
