@@ -14,11 +14,11 @@ function App() {
     <>
       <Nav />
       <Routes>
-        <Route path="/Home" element={<Introduction />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Resume" element={<Resume />} />
-        <Route path="/*" element={<PageNotFound />} />
+        <Route path="/mySuperPortfolio" element={<Introduction />} />
+        <Route path="./About" element={<About />} />
+        <Route path="./Projects" element={<Projects />} />
+        <Route path="./Resume" element={<Resume />} />
+        <Route path="./*" element={<PageNotFound />} />
       </Routes>
     </>
   );
