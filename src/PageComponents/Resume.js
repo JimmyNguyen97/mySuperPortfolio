@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 
 export default function Resume() {
   return (
     <div className="resume__container">
         <h1 id="resume__name">Jimmy Nguyen</h1>
-        <p>Las Vegas, NV | (804) 972-0978 | Nguyen89.mke@gmail.com | LinkedIn</p>
+        <p>Las Vegas, NV | (804) 972-0978 | Nguyen89.mke@gmail.com | 
+          <a 
+            href='https://www.linkedin.com/in/jimmy-nguyen-76a555171/'
+            target='_blank'
+            rel='noreferrer'  
+          >LinkedIn</a></p>
         <hr/>
         <h2>React Software Developer</h2>
         <p>Skill Set</p>
@@ -26,9 +30,9 @@ export default function Resume() {
           <div className="project__container">
             <h3 style={{margin: '0.5rem 0'}}>Omok.io - MMORPG Resource Website</h3>
             <p>Created with React, it's libraries, and hooks.</p>
-            <Link to='https://github.com/JimmyNguyen97/Omok.io'>GitHub Link: Github.io/Omok.io</Link>
+            <a rel='noreferrer' target='_blank' href='https://github.com/JimmyNguyen97/Omok.io'>GitHub Link: Github.io/Omok.io</a>
             <br></br>
-            <Link to='https://github.com/JimmyNguyen97/Omok.io'>Website Link: Omok.io</Link>
+            <a rel='noreferrer' target='_blank' href='https://github.com/JimmyNguyen97/Omok.io'>Website Link: Omok.io</a>
             <ul style={{marginTop: '0.5rem'}}>
               <li id="project__text">
                 A resource website created for an MMORPG called MapleStory. This website was created to maximize efficiency for progression within the game by storing crucial data in one location.
@@ -58,19 +62,19 @@ export default function Resume() {
           <h2>Certificates</h2>
           <div className="certificate__container">
             <div id="cert">
-              <Link to='https://www.credly.com/badges/c9350e8f-ada3-4f02-9c76-61fb832bc2b1?source=linked_in_profile'>FullStack Developer</Link>
+              <a target='_blank' rel='noreferrer' href='https://www.credly.com/badges/c9350e8f-ada3-4f02-9c76-61fb832bc2b1?source=linked_in_profile'>FullStack Developer</a>
               <p>Issued 6/2022</p>
             </div>              
             <div id="cert">
-              <Link to='https://www.linkedin.com/learning/certificates/c7ab5d73c109cb95513b73ae6b3c2fd3431f52209388b9eaec6a33d6a6b4169f?u=2145721'>JavaScripts Loops and Conditionals</Link>
+              <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/learning/certificates/c7ab5d73c109cb95513b73ae6b3c2fd3431f52209388b9eaec6a33d6a6b4169f?u=2145721'>JavaScripts Loops and Conditionals</a>
               <p>Issued 6/2022</p>
             </div>
             <div id="cert">
-              <Link to='https://www.linkedin.com/learning/certificates/e816c4d6b8a44464e8ecb7fb7d578462773347b9392cb9a37b8437c5c71ea3f6?u=2145721'>Progamming Foundations: Algorithms</Link>
+              <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/learning/certificates/e816c4d6b8a44464e8ecb7fb7d578462773347b9392cb9a37b8437c5c71ea3f6?u=2145721'>Progamming Foundations: Algorithms</a>
               <p>Issued 5/2022</p>
             </div>
             <div id="cert">
-              <Link to='https://www.linkedin.com/learning/certificates/535901ae57bb6be4bde79b7b46f51a2994f1d64559225715d16c914d4526d5ca?u=2145721'>Programming Foundations: Object-Oriented Design</Link>
+              <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/learning/certificates/535901ae57bb6be4bde79b7b46f51a2994f1d64559225715d16c914d4526d5ca?u=2145721'>Programming Foundations: Object-Oriented Design</a>
               <p>Issued 5/2022</p>
             </div>
           </div>

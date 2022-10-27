@@ -43,6 +43,12 @@ hr {
   margin: 0.5rem 0;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+
 /* Not Found */
 #not__found {
   width: 100%;
@@ -53,7 +59,7 @@ hr {
 }
 
 
-/*  */
+/* Nav */
 .nav__container {
   display: flex;
   justify-content: center;
@@ -72,6 +78,12 @@ hr {
   width: 70%;
 }
 
+img#nav__logo {
+  position: fixed;
+  left: 5px;
+
+}
+
 .nav__container a {
   padding: 0 1rem;
   margin: 0 2rem;
@@ -83,6 +95,34 @@ hr {
   height: 60%;
   color: #19e7b0;
   border-bottom: solid 2px#19E7B0;
+}
+
+#drop__contents {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 5px;
+  top: 50px;
+  background-color: #02183A;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#drop__contents a {
+  margin: 1rem;
+}
+
+#drop__contents a:hover {
+  height: 60%;
+  color: #19e7b0;
+  border-bottom: solid 2px#19E7B0;
+}
+
+@media (max-width:750px) {
+  .nav__links {
+    display: none;
+  }
 }
 
 /* Introduction */
@@ -110,15 +150,17 @@ hr {
   border-radius: 200px;
 }
 
-/* .intro__text h1 {
-  background-image: linear-gradient(to top, #fff 0%, #19E7B0 100%);
-  cursor: pointer;
-  text-decoration: none;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-} */
+@media (max-width: 1300px) {
+  .intro__text {
+    width: 70%;
+  }
+
+  #img__homepage {
+    display: none;
+  }
+}
+
+
 
 /* About */
 .about__container {
@@ -142,7 +184,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -155,9 +197,25 @@ hr {
   margin: 0 auto;
 }
 
+#visit__project {
+  display: flex;
+  justify-content: space-around;
+  width: 22%;
+  height: 100%;
+}
+
+#visit__project a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 #ms__banner {
   margin: 1rem 0;
   width: 70%;
+}
+
+.projects__text li {
+  margin-bottom: 1rem;
 }
 
 /* Resume */
