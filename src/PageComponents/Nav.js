@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <div className="nav__container">
 
-      <Link to="mySuperPortfolio">
+      <Link to="mySuperPortfolio" id="link_logo">
         <img
           src={require("../Images/blue green J.png")}
           alt="J - First Initial Logo"

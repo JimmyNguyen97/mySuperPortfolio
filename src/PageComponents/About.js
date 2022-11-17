@@ -1,6 +1,14 @@
-function About() {
+import { useState } from 'react';
+import { sliderImages } from "../SliderData";
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+
+function About({slides}) {
+
+  const [ current, setCurrent ] = useState(0);
+  // const length = slides.length;
+
   return (
-    <div className="about__container" id="about">
+    <div className="about__container">
       <div className="about__text">
         <h1 style={{ marginBottom: "1rem" }}>About Me</h1>
         <p>
@@ -11,8 +19,7 @@ function About() {
           >
             {" Full Stack Web Development "}
           </a>
-          boot camp. I use React and it's extensions to create the Frontend for
-          websites and apps.
+          boot camp.
         </p>
         <p>
           I have created apps that keep tracks of game night rankings, that
@@ -25,13 +32,18 @@ function About() {
           crafts. Whether it be hobbies or my career, I like to perform my best
           and compete with myself.
         </p>
-        {/* <p>
-          I love coaching, teaching, or helping others improve. I work best on a
-          team because I have more ideas, feedback, and input. I'm also able to
-          work efficiently alone because of my focused, self-improvement
-          mentality. Whether it be on a team or independently, I am well-rounded
-          because I perform well in both environments.
-        </p> */}
+      </div>
+      <div className='about__images'>
+        <FaArrowAltCircleLeft className='left-arrow' />
+        <FaArrowAltCircleRight className='right-arrow' />
+        {sliderImages.map(data => {
+          return (
+            <img 
+              src={data.image} 
+              alt={data.alt} 
+              id='slider__image'/>
+          )
+        })}
       </div>
     </div>
   );
