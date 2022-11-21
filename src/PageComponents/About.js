@@ -2,15 +2,22 @@ import { useState } from 'react';
 import { sliderImages } from "../SliderData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
-function About({slides}) {
+function About() {
+  const [ image, setImage ] = useState(0);
 
-  const [ current, setCurrent ] = useState(0);
-  // const length = slides.length;
+  function NextImage(){
+    const arrLength = sliderImages.length;
+    setImage(image === arrLength-1?0:image+1);
+  }
+  function PrevImage(){
+    const arrLength = sliderImages.length;
+    setImage(image === 0 ? arrLength-1:image-1);
+  }
 
   return (
     <div className="about__container">
       <div className="about__text">
-        <h1 style={{ marginBottom: "1rem" }}>About Me</h1>
+        <h1 style={{ margin: "auto", paddingBottom: "1rem" }}>About Me</h1>
         <p>
           I'm a self taught developer that has also completed a
           <a
@@ -34,16 +41,13 @@ function About({slides}) {
         </p>
       </div>
       <div className='about__images'>
-        <FaArrowAltCircleLeft className='left-arrow' />
-        <FaArrowAltCircleRight className='right-arrow' />
-        {sliderImages.map(data => {
-          return (
-            <img 
-              src={data.image} 
-              alt={data.alt} 
-              id='slider__image'/>
-          )
-        })}
+        <FaArrowAltCircleLeft className='left__arrow' 
+          onClick={PrevImage}
+        />
+        <FaArrowAltCircleRight className='right__arrow' 
+          onClick={NextImage}
+        />
+        <img src={sliderImages[image].image} alt='Memories' id='slider__image'/>
       </div>
     </div>
   );

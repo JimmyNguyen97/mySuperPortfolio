@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Resume from '../Images/Resume.pdf';
 
 export default function Nav() {
   const [menu, setMenu] = useState(false);
@@ -23,7 +24,13 @@ export default function Nav() {
         <Link id="nav__btn" to="mySuperPortfolio">Home</Link>
         <Link id="nav__btn" to="/About">About</Link>
         <Link id="nav__btn" to="/Projects">Project</Link>
-        <Link id="nav__btn" to="/Resume">Resume</Link>
+        <a 
+        href={Resume}
+          id="resume" 
+          to="/Resume"
+          target='_blank'
+          rel="noreferrer"
+        >Resume</a>
       </div>
       <div className="drop__container" style={{ display: menuDisplay }}>
         <div id="drop__contents">
@@ -35,9 +42,6 @@ export default function Nav() {
           </Link>
           <Link to="/Projects" onClick={clickToDropMenu}>
             Project
-          </Link>
-          <Link to="/Resume" onClick={clickToDropMenu}>
-            Resume
           </Link>
         </div>
       </div>
