@@ -26,7 +26,7 @@ function About() {
           >
             {" Full Stack Web Development "}
           </a>
-          boot camp.
+          program.
         </p>
         <p>
           I have created apps that keep tracks of game night rankings, that

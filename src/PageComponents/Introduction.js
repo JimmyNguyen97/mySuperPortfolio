@@ -18,9 +18,7 @@ export default function Introduction() {
             to creating and building.
           </p>
           <p style={{ color: "lightgray" }}>
-            In my free time, I'm a gamer and
-            <a href='/'>{" game developing"}</a> as a hobby. Outside
-            of gaming, I'm a rock climber and volleyball player.
+            I love team environments and I also work well on my own. I'm a hobbyist and a "Jack of All Trades". When I learn a new subject, I like to learn it well. 
           </p>
         </div>
         <div>
