@@ -110,7 +110,7 @@ img#nav_logo:hover {
   display: flex;
   align-items: center;
   height: 70%;
-  background: black;
+  background: rgb(15, 46, 118);
   padding: 1rem;
   border-radius: 0.5rem;
   color: white;
