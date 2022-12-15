@@ -12,17 +12,8 @@ export default function Nav() {
 
   return (
     <div className="nav__container">
-
-      <Link to="mySuperPortfolio" id="link_logo">
-        <img
-          src={require("../Images/blue green J.png")}
-          alt="J - First Initial Logo"
-          id="nav_logo"
-        />
-      </Link>
       <div className="nav__links">
         <Link id="nav__btn" to="mySuperPortfolio">Home</Link>
-        <Link id="nav__btn" to="/About">About</Link>
         <Link id="nav__btn" to="/Projects">Project</Link>
         <a 
         href={Resume}
@@ -36,9 +27,6 @@ export default function Nav() {
         <div id="drop__contents">
           <Link to="mySuperPortfolio" onClick={clickToDropMenu}>
             Home
-          </Link>
-          <Link to="/About" onClick={clickToDropMenu}>
-            About
           </Link>
           <Link to="/Projects" onClick={clickToDropMenu}>
             Project
