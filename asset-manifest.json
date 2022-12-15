@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/mySuperPortfolio/static/css/main.f0b1bdcd.css",
-    "main.js": "/mySuperPortfolio/static/js/main.95ebc5da.js",
+    "main.css": "/mySuperPortfolio/static/css/main.06308ef2.css",
+    "main.js": "/mySuperPortfolio/static/js/main.2bf4f4e4.js",
     "static/media/ss-omok.png": "/mySuperPortfolio/static/media/ss-omok.0d9dfd1efc138089f3c6.png",
-    "static/media/Profile Picture.png": "/mySuperPortfolio/static/media/Profile Picture.20c2a58d7aa9bf7d4520.png",
+    "static/media/headshot.png": "/mySuperPortfolio/static/media/headshot.20c2a58d7aa9bf7d4520.png",
     "static/media/Github-Logo.png": "/mySuperPortfolio/static/media/Github-Logo.f4003e103c588cf677ad.png",
+    "static/media/Resume.pdf": "/mySuperPortfolio/static/media/Resume.00bbbd5f1298b605324c.pdf",
     "static/media/LinkedIn.png": "/mySuperPortfolio/static/media/LinkedIn.aaf1853cecf02cc9aec0.png",
-    "static/media/Resume.pdf": "/mySuperPortfolio/static/media/Resume.ec75cc76035d3aae8747.pdf",
     "static/media/Youtube-Logo.png": "/mySuperPortfolio/static/media/Youtube-Logo.f69740d3319f56724336.png",
-    "static/media/blue green J.png": "/mySuperPortfolio/static/media/blue green J.c5fb937724f18ece14dc.png",
     "index.html": "/mySuperPortfolio/index.html",
-    "main.f0b1bdcd.css.map": "/mySuperPortfolio/static/css/main.f0b1bdcd.css.map",
-    "main.95ebc5da.js.map": "/mySuperPortfolio/static/js/main.95ebc5da.js.map"
+    "main.06308ef2.css.map": "/mySuperPortfolio/static/css/main.06308ef2.css.map",
+    "main.2bf4f4e4.js.map": "/mySuperPortfolio/static/js/main.2bf4f4e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0b1bdcd.css",
-    "static/js/main.95ebc5da.js"
+    "static/css/main.06308ef2.css",
+    "static/js/main.2bf4f4e4.js"
   ]
 }
