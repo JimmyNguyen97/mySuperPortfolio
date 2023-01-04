@@ -5,6 +5,8 @@
     height: 80vh;
     width: 60%;
     margin: auto;
+    position: relative;
+    top: 6vh;
 }
 
 #project__intro {
