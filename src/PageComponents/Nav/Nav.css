@@ -3,15 +3,17 @@
     width: 100%;
     background-color: #011027;
     color: white;
-    position: relative;
+    position: sticky;
+    top: 0;
+    left: 0;
     z-index: 999;
 }
 
-#vball__logo {
-    height: 75px;
-    width: 75px;
+#page__logo {
+    height: 50px;
+    width: 50px;
     position: absolute;
-    top: -0.5vh;
+    top: 1vh;
     left: 5vh;
 }
 
@@ -38,4 +40,10 @@
 
 #nav__link:hover {
     background-color: #19E7B0;
+}
+
+@media (max-height: 900px){
+    #page__logo {
+        display: none;
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./About.css"
+import learnQuote from "../../Images/learningQuote.png"
 
 export default function About() {
   return (
@@ -14,6 +15,7 @@ export default function About() {
         <p id='offwhite'>
             As a hobbyist and learner of many skills, I present flexible skills. Having these flexible skills have allowed me to juggle multiple tasks, learn multiple technologies, and switch to areas of need as requested.
         </p>
+        <div className='quote__container'><img src={learnQuote} alt="Quote" id='quote'/></div>
     </div>
   )
 }

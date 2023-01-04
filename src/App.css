@@ -6,7 +6,7 @@
   padding: 0;
   color: white;
   font-family: 'Kumbh Sans', sans-serif;
-  font-family: 'Space Mono', monospace;;
+  font-family: 'Space Mono', monospace;
 }
 
 body {
@@ -15,6 +15,14 @@ body {
   width: 100%;
 }
 
+.intro {
+  font-size: 75px;
+  margin-bottom: 1rem;
+}
+
 #offwhite {
   color: rgb(211, 211, 211);
+}
+
+@media (max-height:900px){
 }

@@ -9,7 +9,7 @@ export default function Project() {
             <h1 className='intro' id='project__intro'>Current Project</h1>
             <p>Omok: MMORPG Resource Center - 
                 <a
-                    href={"/"}
+                    href={"https://nguyenvbrc.github.io/OmokPlace/"}
                     target='_blank'
                     rel="noreferrer"
                     id='project__link'

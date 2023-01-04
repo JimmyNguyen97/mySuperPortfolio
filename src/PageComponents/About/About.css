@@ -17,6 +17,16 @@
     border-bottom: solid 3px black;
 }
 
+.quote__container {
+    display: flex;
+    justify-content: center;
+}
+
+#quote {
+    width: 425px;
+    height: 200px;
+}
+
 @media (max-width: 1500px) {
     .about__container {
         width: 80%;
