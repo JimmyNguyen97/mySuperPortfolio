@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/mySuperPortfolio/static/css/main.06308ef2.css",
-    "main.js": "/mySuperPortfolio/static/js/main.2bf4f4e4.js",
-    "static/media/ss-omok.png": "/mySuperPortfolio/static/media/ss-omok.0d9dfd1efc138089f3c6.png",
-    "static/media/headshot.png": "/mySuperPortfolio/static/media/headshot.20c2a58d7aa9bf7d4520.png",
-    "static/media/Github-Logo.png": "/mySuperPortfolio/static/media/Github-Logo.f4003e103c588cf677ad.png",
-    "static/media/Resume.pdf": "/mySuperPortfolio/static/media/Resume.00bbbd5f1298b605324c.pdf",
-    "static/media/LinkedIn.png": "/mySuperPortfolio/static/media/LinkedIn.aaf1853cecf02cc9aec0.png",
-    "static/media/Youtube-Logo.png": "/mySuperPortfolio/static/media/Youtube-Logo.f69740d3319f56724336.png",
-    "index.html": "/mySuperPortfolio/index.html",
-    "main.06308ef2.css.map": "/mySuperPortfolio/static/css/main.06308ef2.css.map",
-    "main.2bf4f4e4.js.map": "/mySuperPortfolio/static/js/main.2bf4f4e4.js.map"
+    "main.css": "/Portfolio/static/css/main.4063a584.css",
+    "main.js": "/Portfolio/static/js/main.c3264077.js",
+    "static/media/OmokSS.PNG": "/Portfolio/static/media/OmokSS.fbba2e94ca0497861db6.PNG",
+    "static/media/Ball.KOB.png": "/Portfolio/static/media/Ball.KOB.228cdcccc9f38e22c56c.png",
+    "static/media/Github-Logo.png": "/Portfolio/static/media/Github-Logo.f4003e103c588cf677ad.png",
+    "static/media/LinkedIn.png": "/Portfolio/static/media/LinkedIn.aaf1853cecf02cc9aec0.png",
+    "static/media/Youtube-Logo.png": "/Portfolio/static/media/Youtube-Logo.f69740d3319f56724336.png",
+    "index.html": "/Portfolio/index.html",
+    "main.4063a584.css.map": "/Portfolio/static/css/main.4063a584.css.map",
+    "main.c3264077.js.map": "/Portfolio/static/js/main.c3264077.js.map"
   },
   "entrypoints": [
-    "static/css/main.06308ef2.css",
-    "static/js/main.2bf4f4e4.js"
+    "static/css/main.4063a584.css",
+    "static/js/main.c3264077.js"
   ]
 }
