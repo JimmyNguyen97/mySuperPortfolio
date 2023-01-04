@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4b0fe2b2.css",
+    "main.css": "/Portfolio/static/css/main.e8bb40d0.css",
     "main.js": "/Portfolio/static/js/main.771fce82.js",
     "static/media/OmokSS.PNG": "/Portfolio/static/media/OmokSS.fbba2e94ca0497861db6.PNG",
     "static/media/learningQuote.png": "/Portfolio/static/media/learningQuote.8eac7f133a103ab73ae5.png",
@@ -9,11 +9,11 @@
     "static/media/Youtube-Logo.png": "/Portfolio/static/media/Youtube-Logo.f69740d3319f56724336.png",
     "static/media/pageLogo.png": "/Portfolio/static/media/pageLogo.c5fb937724f18ece14dc.png",
     "index.html": "/Portfolio/index.html",
-    "main.4b0fe2b2.css.map": "/Portfolio/static/css/main.4b0fe2b2.css.map",
+    "main.e8bb40d0.css.map": "/Portfolio/static/css/main.e8bb40d0.css.map",
     "main.771fce82.js.map": "/Portfolio/static/js/main.771fce82.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b0fe2b2.css",
+    "static/css/main.e8bb40d0.css",
     "static/js/main.771fce82.js"
   ]
 }
