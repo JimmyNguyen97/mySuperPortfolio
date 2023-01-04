@@ -1,6 +1,6 @@
 {
-  "name": "react-portfolio",
-  "homepage": "https://jimmynguyen97.github.io/mySuperPortfolio",
+  "name": "portfolio",
+  "homepage": "https://NguyenVBRC.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,0 +1,24 @@
+.about__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+}
+
+.about__container p {
+    margin-bottom: 1rem;
+}
+
+#about__intro {
+    padding: 0 0 1rem 1rem;
+    border-left: solid 1px black;
+    border-bottom: solid 3px black;
+}
+
+@media (max-width: 1500px) {
+    .about__container {
+        width: 80%;
+    }
+}

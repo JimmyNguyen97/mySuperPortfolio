@@ -1,0 +1,51 @@
+.project__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+}
+
+#project__intro {
+    margin: 0;
+}
+
+.project__title {
+    padding: 0 0 1rem 1rem;
+    border-left: solid 1px black;
+    border-bottom: solid 3px black;
+}
+
+.project__information {
+    margin: 2rem 0;
+}
+
+.project__problem {
+    margin-bottom: 1rem;
+}
+
+.link__image__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+/* #link__img {
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+} */
+
+#project__link {
+    text-decoration: none;
+    color: #19E7B0;
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 1500px){
+    .project__container {
+        width: 80%;
+    }
+}
