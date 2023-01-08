@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.740cea64.css",
-    "main.js": "/Portfolio/static/js/main.fe4665af.js",
+    "main.js": "/Portfolio/static/js/main.71cb02b3.js",
     "static/media/OmokSS.PNG": "/Portfolio/static/media/OmokSS.fbba2e94ca0497861db6.PNG",
     "static/media/learningQuote.png": "/Portfolio/static/media/learningQuote.8eac7f133a103ab73ae5.png",
     "static/media/Github-Logo.png": "/Portfolio/static/media/Github-Logo.f4003e103c588cf677ad.png",
@@ -10,10 +10,10 @@
     "static/media/pageLogo.png": "/Portfolio/static/media/pageLogo.c5fb937724f18ece14dc.png",
     "index.html": "/Portfolio/index.html",
     "main.740cea64.css.map": "/Portfolio/static/css/main.740cea64.css.map",
-    "main.fe4665af.js.map": "/Portfolio/static/js/main.fe4665af.js.map"
+    "main.71cb02b3.js.map": "/Portfolio/static/js/main.71cb02b3.js.map"
   },
   "entrypoints": [
     "static/css/main.740cea64.css",
-    "static/js/main.fe4665af.js"
+    "static/js/main.71cb02b3.js"
   ]
 }
