@@ -1,25 +1,11 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Get to know me!\
+I'm a Developer that enjoys build applications. Currently using the MERN tech stack, I plan to branch out to increase my knowledge.
 
-## Available Scripts
+## About Me
 
-In the project directory, you can run:
+I've been a Recruiter in Human Resources for 5 years and while I love the field, I've been a techie my entire life and have wanted to work in the field for as long as I could remember.\
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I've created Full Stack applications using the MERN tech stack. (MongoDb, Express, React, Node).\
+Check out my porfolio to learn a little more about me!
