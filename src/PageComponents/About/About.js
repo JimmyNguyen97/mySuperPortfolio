@@ -10,7 +10,7 @@ export default function About() {
           <p>"Striving to be my best."</p>
         </div>
         <p id='offwhite'>
-            I’m a hobbyist that likes to learn everything and I consider myself a jack of all trades. I’m a Developer that is currently using JavaScript and its frameworks.
+            I’m a hobbyist that likes to learn everything and I consider myself a jack of all trades. I’m a Developer that is currently using <span id='highlight'>JavaScript</span> and its frameworks.
         </p>
         <p id='offwhite'>
             I’ve worked in recruitment for 5 years and have developed high level interpersonal skills. These skills compliment my technical skills and have helped me become a well-rounded engineer. 

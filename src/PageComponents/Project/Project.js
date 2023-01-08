@@ -29,7 +29,7 @@ export default function Project() {
                 </p>
             </div>
             <p id='project__details'>
-                By creating a resource that provides the necessary resources in one area, I reduced search time and increased player efficiency in the community.
+                By <span id='highlight'>creating a resource</span> that provides the necessary resources in one area, I <span id='highlight'>reduced search time</span> and <span id='highlight'>increased player efficiency</span> in the community.
             </p>
         </div>
         <img src={omok} alt="Resource Page" id='omok__preview'/>
