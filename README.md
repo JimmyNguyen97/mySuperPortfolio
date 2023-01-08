@@ -10,5 +10,5 @@ Prior to becoming a Software Developer, I was a Recruiter in Human Resources for
 I've created Full Stack applications using the MERN tech stack. (MongoDb, Express, React, Node).\
 Check out my porfolio to learn a little more about me!
 
-https://nguyenvbrc.github.io/Portfolio
+Click [Here(https://nguyenvbrc.github.io/Portfolio)] to visit the portfolio!
 
