@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Mern from "../../Images/MERN.png"
 import LinkedIn from "../../Images/LinkedIn.png"
 import GitHub from "../../Images/Github-Logo.png"
 import Youtube from "../../Images/Youtube-Logo.png"
@@ -21,6 +22,7 @@ export default function Home() {
                     to creating and building.
                 </p>
             </div>
+            <img src={Mern} alt="Mern Tech Stack" id='mern__img'/>
             <div className='social__media'>
                 {/* LinkedIn */}
                 <a                     
