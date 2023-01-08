@@ -2,33 +2,49 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    /* height: 80vh; */
     width: 60%;
     margin: auto;
+    position: relative;
+    top: 6vh;
 }
-
-.about__container p {
-    margin-bottom: 1rem;
-}
-
-#about__intro {
+.about__intro {
     padding: 0 0 1rem 1rem;
     border-left: solid 1px black;
     border-bottom: solid 3px black;
+    margin-bottom: 2rem;
+}
+
+.about__intro h1 {
+    font-size: 75px;
+}
+
+.about__container #offwhite {
+    margin-bottom: 2rem;
 }
 
 .quote__container {
     display: flex;
     justify-content: center;
+    margin: 1rem;
 }
 
 #quote {
-    width: 425px;
-    height: 200px;
+    width: 50%;
+    /* height: 5%; */
 }
 
 @media (max-width: 1500px) {
     .about__container {
         width: 80%;
+    }
+}
+
+@media (max-width: 500px){
+    .home__container .intro {
+        font-size: 50px;
+    }
+    #quote {
+        width: 95%;
     }
 }

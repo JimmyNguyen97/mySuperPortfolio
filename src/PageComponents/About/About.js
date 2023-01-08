@@ -5,7 +5,10 @@ import learnQuote from "../../Images/learningQuote.png"
 export default function About() {
   return (
     <div className='about__container'>
-        <h1 className='intro' id="about__intro">About</h1>
+        <div className="about__intro">
+          <h1>About</h1>
+          <p>"Striving to be my best."</p>
+        </div>
         <p id='offwhite'>
             I’m a hobbyist that likes to learn everything and I consider myself a jack of all trades. I’m a Developer that is currently using JavaScript and its frameworks.
         </p>

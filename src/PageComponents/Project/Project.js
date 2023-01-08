@@ -31,7 +31,7 @@ export default function Project() {
                 By creating a resource that provides the necessary resources in one area, I reduced search time and increased player efficiency in the community.
             </p>
         </div>
-        <img src={omok} alt="Resource Page"/>
+        <img src={omok} alt="Resource Page" id='omok__preview'/>
     </div>
   )
 }
