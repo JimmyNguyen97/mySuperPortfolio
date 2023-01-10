@@ -16,7 +16,6 @@ Check out my porfolio to learn a little more about me!
 
 Click [Here](https://nguyenvbrc.github.io/Portfolio) to visit the portfolio!
 
-### To See The Code
-This project is currently hosted on GitHub without a backend.
+## To See The Code
 Simply clone the application and run the command "npm start".
 
